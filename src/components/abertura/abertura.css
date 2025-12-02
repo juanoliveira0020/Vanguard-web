@@ -1,0 +1,13 @@
+.abertura-container {
+  width: 100vw;
+  height: 100vh;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.abertura-logo {
+  width: 500px;
+  opacity: 0.95;
+}

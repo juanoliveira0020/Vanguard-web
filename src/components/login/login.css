@@ -1,0 +1,95 @@
+/* Container geral */
+.login-container {
+  width: 1270px;
+  height: 590px;
+  background: white;
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ---------------------- */
+/* Lado esquerdo */
+.login-left {
+  width: 45%;
+  background: white;
+  padding: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+
+/* Caixa com inputs */
+.form-box {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.input-field {
+  width: 85%;
+  height: 50px;
+  background: #e7e7e7;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 18px;
+  padding-left: 10px;
+  outline: none;
+}
+
+.confirm-btn {
+  width: 140px;
+  height: 40px;
+  background: #69338d;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+/* ---------------------- */
+/* Lado direito */
+.login-right {
+  width: 55%;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #b300ff, #4a0072);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Faixa diagonal */
+.purple-overlay {
+  position: absolute;
+  left: -60px;
+  width: 200px;
+  height: 120%;
+  background: white;
+  transform: rotate(10deg);
+  z-index: 1;
+}
+
+/* Logo */
+.right-logo {
+  width: 60%;
+  z-index: 2;
+  opacity: 0.65;
+}

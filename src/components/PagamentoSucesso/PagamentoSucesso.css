@@ -1,0 +1,29 @@
+.PagamentoSucesso-container {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom, #8a2be2, #4b0082);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.icon-logo {
+  width: 500px;
+  margin-bottom: 40px;
+  opacity: 0.95;
+}
+
+.PagamentoSucesso-text {
+  font-size: 22px;
+  margin-bottom: 40px;
+  font-weight: 500;
+}
+
+.PagamentoSucesso-bar {
+  width: 55%;
+  height: 4px;
+  background: linear-gradient(to right, white, rgba(255,255,255,0.3));
+  border-radius: 10px;
+}

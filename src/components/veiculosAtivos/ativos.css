@@ -1,0 +1,86 @@
+.ativos-container {
+   width: 100vw;
+  height: 100vh;
+  display: flex;
+  background: white;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+}
+
+/* LEFT SIDE */
+.ativos-left {
+  width: 60%;
+  background: #ffffff;
+  padding: 40px;
+  position: relative;
+}
+
+.ativos-back-btn {
+  background: transparent;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  color: purple;
+}
+
+.ativos-content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.ativos-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: black;
+}
+
+/* Search bar */
+.ativos-search {
+  width: 60%;
+  padding: 20px 20px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  background: #d7c5e6;
+  font-size: 15px;
+  margin-bottom: 40px;
+  color: #7c19c8;
+}
+
+/* Table */
+.ativos-table {
+  width: 70%;
+  border-collapse: separate;
+  border-spacing: 0 18px;
+  font-size: 16px;
+  color: black;
+}
+
+.ativos-table thead th {
+  text-align: left;
+  color: #333;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.ativos-table tbody tr td {
+  padding: 6px 0;
+}
+
+/* RIGHT SIDE */
+.ativos-right {
+  width: 60%;
+  background: linear-gradient(135deg, #6a00b8, #b600ff);;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.ativos-logo {
+  width: 55%;
+  opacity: 0.9;
+}
