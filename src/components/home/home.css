@@ -1,4 +1,4 @@
-/* ===== CONTAINER PRINCIPAL ===== */
+/*CONTAINER PRINCIPAL*/
 .home-container {
    width: 100vw;
   height: 100vh;
@@ -6,7 +6,7 @@
   background: #ffffff;
 }
 
-/* ===== LADO ESQUERDO ===== */
+/*LADO ESQUERDO*/
 .home-left {
   width: 55%;
   display: flex;
@@ -14,7 +14,7 @@
   align-items: center;
 }
 
-/* ===== GRID ===== */
+/*GRID */
 .home-grid {
   width: 450px;
   display: grid;
@@ -23,27 +23,23 @@
   gap: 25px;
 }
 
-/* ===== CARD PADRÃO ===== */
+/*CARDS*/
 .home-card {
   background: #e6e6e6;
   border-radius: 15px;
   box-shadow: 0px 4px 12px rgba(109, 7, 177, 0.253);
- 
-
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
   cursor: pointer;
-  
 }
 
 .home-card:hover {
   transform: scale(1.03);
 }
 
-/* ===== CARD LARGO (HISTÓRICO) ===== */
+/*CARD (HISTÓRICO)*/
 .home-wide {
   grid-column: span 2;
   height: 90px;
@@ -55,7 +51,7 @@
   gap: 25px;
 }
 
-/* ===== ÍCONES ===== */
+/*ÍCONES*/
 .home-icon {
   width: 70px;
   height: 70px;
@@ -69,14 +65,14 @@
   margin-bottom: 0;
 }
 
-/* ===== TEXTO ===== */
+/*TEXTO*/
 .home-card span {
   font-size: 18px;
   font-weight: 600;
   color: #000000;
 }
 
-/* ===== LADO DIREITO ===== */
+/*LADO DIREITO*/
 .home-right {
   width: 60%;
   background: linear-gradient(135deg, #6a00b8, #b600ff);;
@@ -87,7 +83,7 @@
   clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%);
 }
 
-/* ===== LOGO ===== */
+/*LOGO*/
 .home-logo {
   width: 55%;
   opacity: 0.9;

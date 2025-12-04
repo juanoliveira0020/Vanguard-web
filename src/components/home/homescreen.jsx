@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./home.css";
 
 import logo from "../../assets/image/logo.png";
@@ -7,6 +8,8 @@ import faturamento from "../../assets/image/monitoring 3.png";
 import historico from "../../assets/image/monitoring 4.png";
 
 export const HomeScreen = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="home-container">
 
@@ -15,32 +18,32 @@ export const HomeScreen = () => {
 
         <div className="home-grid">
 
-          {/* Cadastrar */}
-          <div className="home-card">
+          {/* Cadastrar Veículo */}
+          <div className="home-card" onClick={() => navigate("/entrada")}>
             <img src={car} className="home-icon" alt="Cadastrar" />
             <span>Cadastrar Veículo</span>
           </div>
 
-          {/* Veículos no pátio */}
-          <div className="home-card">
+          {/* Veículos no Pátio */}
+          <div className="home-card" onClick={() => navigate("/ativos")}>
             <img src={car} className="home-icon" alt="Veículos no pátio" />
             <span>Veículos no Pátio</span>
           </div>
 
-          {/* Retirar */}
-          <div className="home-card">
+          {/* Retirar Veículo */}
+          <div className="home-card" onClick={() => navigate("/saida")}>
             <img src={car} className="home-icon" alt="Retirar" />
             <span>Retirar Veículo</span>
           </div>
 
           {/* Faturamento */}
-          <div className="home-card">
+          <div className="home-card" onClick={() => navigate("/faturamento")}>
             <img src={faturamento} className="home-icon" alt="Faturamento" />
             <span>Faturamento</span>
           </div>
 
-          {/* Histórico */}
-          <div className="home-card home-wide">
+          {/* Histórico de Veículos */}
+          <div className="home-card home-wide" onClick={() => navigate("/historico")}>
             <img src={historico} className="home-icon" alt="Histórico" />
             <span>Histórico de Veículos</span>
           </div>

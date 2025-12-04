@@ -10,7 +10,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-/* ---------------------- */
 /* Lado esquerdo */
 .login-left {
   width: 45%;
@@ -64,7 +63,6 @@ label {
   font-size: 15px;
 }
 
-/* ---------------------- */
 /* Lado direito */
 .login-right {
   width: 55%;
@@ -76,7 +74,7 @@ label {
   justify-content: center;
 }
 
-/* Faixa diagonal */
+/* FAIXA DIAGONAL */
 .purple-overlay {
   position: absolute;
   left: -60px;

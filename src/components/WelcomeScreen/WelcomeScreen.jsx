@@ -1,8 +1,19 @@
 import './style.css';
+import { useNavigate } from "react-router-dom";
 import vanguardLogoDark from '../../assets/image/logo.png';
 import vanguardLogoLight from '../../assets/image/logo.png';
 
 export const WelcomeScreen = () => {
+  const navigate = useNavigate();
+
+  const goToLogin = () => {
+    navigate("/login");  // rota da página de login
+  };
+
+  const goToRegister = () => {
+    navigate("/cadastro"); // rota da página de cadastro
+  };
+
   return (
     <div className="welcome-container">
 
@@ -16,11 +27,15 @@ export const WelcomeScreen = () => {
 
         <h1 className="welcome-title">Bem-Vindo</h1>
 
-        <button className="btn-login">Fazer Login</button>
+        <button className="btn-login" onClick={goToLogin}>
+          Fazer Login
+        </button>
 
         <p className="or-text">OU</p>
 
-        <button className="btn-register">Cadastrar-se</button>
+        <button className="btn-register" onClick={goToRegister}>
+          Cadastrar-se
+        </button>
       </div>
 
       {/* LADO DIREITO */}

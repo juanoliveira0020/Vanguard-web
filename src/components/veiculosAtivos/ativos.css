@@ -7,7 +7,7 @@
   overflow: hidden;
 }
 
-/* LEFT SIDE */
+/* Lado Esquerdo */
 .ativos-left {
   width: 60%;
   background: #ffffff;
@@ -36,7 +36,7 @@
   color: black;
 }
 
-/* Search bar */
+/* Barra de Pesquisa */
 .ativos-search {
   width: 60%;
   padding: 20px 20px;
@@ -49,7 +49,7 @@
   color: #7c19c8;
 }
 
-/* Table */
+/* Tabela */
 .ativos-table {
   width: 70%;
   border-collapse: separate;
@@ -69,7 +69,7 @@
   padding: 6px 0;
 }
 
-/* RIGHT SIDE */
+/* Lado Direito */
 .ativos-right {
   width: 60%;
   background: linear-gradient(135deg, #6a00b8, #b600ff);;

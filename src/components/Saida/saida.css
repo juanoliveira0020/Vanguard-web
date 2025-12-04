@@ -126,7 +126,7 @@
   opacity: 0.65;
 }
 
-/* FAIXA DIAGONAL AJUSTADA */
+/* FAIXA DIAGONAL*/
 .saida-right::before {
   width: 55%;
   position: relative;
